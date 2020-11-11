@@ -22,7 +22,6 @@ namespace Jokes
     class SendMessage
     {
         private const string URL = "https://api.eu.mailgun.net/v3/mg.brash.io/messages";
-        private string urlParameters = "?api_key=c3954576afe7b44e6c3b3505da888041-ea44b6dc-c8628696";
 
         static HttpClient client = new HttpClient();
 
@@ -51,9 +50,9 @@ namespace Jokes
         static async Task<bool> SendJoke(string joke)
         {
            // client.DefaultRequestHeaders.Authorization = 
-           //     new AuthenticationHeaderValue("Basic", Convert.ToBase64String(UTF8Encoding.UTF8.GetBytes("api" + ":" + "key-c3954576afe7b44e6c3b3505da888041-ea44b6dc-c8628696")));
+           //     new AuthenticationHeaderValue("Basic", Convert.ToBase64String(UTF8Encoding.UTF8.GetBytes("api" + ":" + "key-xxxxxxxxxxx")));
 
-            bool t = client.DefaultRequestHeaders.TryAddWithoutValidation("Authorization", "key=c3954576afe7b44e6c3b3505da888041-ea44b6dc-c8628696");
+            bool t = client.DefaultRequestHeaders.TryAddWithoutValidation("Authorization", "key=xxxxxxx");
 
             var form = new Dictionary<string, string>();
 
