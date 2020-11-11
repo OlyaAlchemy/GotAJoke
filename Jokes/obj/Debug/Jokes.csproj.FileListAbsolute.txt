@@ -1,0 +1,7 @@
+D:\Coding staff\Jokes\Jokes\bin\Debug\Jokes.exe.config
+D:\Coding staff\Jokes\Jokes\bin\Debug\Jokes.exe
+D:\Coding staff\Jokes\Jokes\bin\Debug\Jokes.pdb
+D:\Coding staff\Jokes\Jokes\obj\Debug\Jokes.csprojAssemblyReference.cache
+D:\Coding staff\Jokes\Jokes\obj\Debug\Jokes.csproj.CoreCompileInputs.cache
+D:\Coding staff\Jokes\Jokes\obj\Debug\Jokes.exe
+D:\Coding staff\Jokes\Jokes\obj\Debug\Jokes.pdb
